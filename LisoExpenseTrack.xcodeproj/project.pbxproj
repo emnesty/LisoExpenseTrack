@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B190B2842C07B02400373066 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B190B2832C07B02400373066 /* SignUpView.swift */; };
+		B190B28C2C07B24B00373066 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B190B2882C07B24B00373066 /* Inter-Medium.ttf */; };
+		B190B28D2C07B24B00373066 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B190B2892C07B24B00373066 /* Inter-Regular.ttf */; };
+		B190B28E2C07B24B00373066 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B190B28A2C07B24B00373066 /* Inter-Bold.ttf */; };
+		B190B28F2C07B24B00373066 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B190B28B2C07B24B00373066 /* Inter-SemiBold.ttf */; };
+		B190B2922C07F75A00373066 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B190B2912C07F75A00373066 /* CustomTextField.swift */; };
+		B190B2942C0801C600373066 /* SignUpSucessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B190B2932C0801C600373066 /* SignUpSucessView.swift */; };
 		B19227FC2C05205500F2EF6F /* LisoExpenseTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19227FB2C05205500F2EF6F /* LisoExpenseTrackApp.swift */; };
-		B19227FE2C05205500F2EF6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19227FD2C05205500F2EF6F /* ContentView.swift */; };
 		B19228002C05205600F2EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19227FF2C05205600F2EF6F /* Assets.xcassets */; };
 		B19228032C05205600F2EF6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19228022C05205600F2EF6F /* Preview Assets.xcassets */; };
 		B192280D2C05205600F2EF6F /* LisoExpenseTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192280C2C05205600F2EF6F /* LisoExpenseTrackTests.swift */; };
 		B19228172C05205600F2EF6F /* LisoExpenseTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19228162C05205600F2EF6F /* LisoExpenseTrackUITests.swift */; };
 		B19228192C05205600F2EF6F /* LisoExpenseTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19228182C05205600F2EF6F /* LisoExpenseTrackUITestsLaunchTests.swift */; };
+		B192282B2C0520C800F2EF6F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192282A2C0520C800F2EF6F /* WelcomeView.swift */; };
+		B192282D2C0521DC00F2EF6F /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192282C2C0521DC00F2EF6F /* UIExtensions.swift */; };
+		B192282F2C05257F00F2EF6F /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192282E2C05257F00F2EF6F /* PrimaryButton.swift */; };
+		B19228312C05291A00F2EF6F /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19228302C05291A00F2EF6F /* SecondaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B190B2832C07B02400373066 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B190B2882C07B24B00373066 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		B190B2892C07B24B00373066 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		B190B28A2C07B24B00373066 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		B190B28B2C07B24B00373066 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		B190B2902C07B2E200373066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B190B2912C07F75A00373066 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B190B2932C0801C600373066 /* SignUpSucessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSucessView.swift; sourceTree = "<group>"; };
 		B19227F82C05205500F2EF6F /* LisoExpenseTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LisoExpenseTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19227FB2C05205500F2EF6F /* LisoExpenseTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LisoExpenseTrackApp.swift; sourceTree = "<group>"; };
-		B19227FD2C05205500F2EF6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B19227FF2C05205600F2EF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B19228022C05205600F2EF6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B19228082C05205600F2EF6F /* LisoExpenseTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisoExpenseTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +61,10 @@
 		B19228122C05205600F2EF6F /* LisoExpenseTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisoExpenseTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19228162C05205600F2EF6F /* LisoExpenseTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LisoExpenseTrackUITests.swift; sourceTree = "<group>"; };
 		B19228182C05205600F2EF6F /* LisoExpenseTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LisoExpenseTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B192282A2C0520C800F2EF6F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B192282C2C0521DC00F2EF6F /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		B192282E2C05257F00F2EF6F /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		B19228302C05291A00F2EF6F /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B190B2872C07B23C00373066 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B190B28A2C07B24B00373066 /* Inter-Bold.ttf */,
+				B190B2882C07B24B00373066 /* Inter-Medium.ttf */,
+				B190B2892C07B24B00373066 /* Inter-Regular.ttf */,
+				B190B28B2C07B24B00373066 /* Inter-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		B19227EF2C05205500F2EF6F = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +126,11 @@
 		B19227FA2C05205500F2EF6F /* LisoExpenseTrack */ = {
 			isa = PBXGroup;
 			children = (
+				B190B2902C07B2E200373066 /* Info.plist */,
+				B190B2872C07B23C00373066 /* Font */,
+				B19228272C05208600F2EF6F /* View */,
+				B19228252C05206B00F2EF6F /* Ui Common */,
 				B19227FB2C05205500F2EF6F /* LisoExpenseTrackApp.swift */,
-				B19227FD2C05205500F2EF6F /* ContentView.swift */,
 				B19227FF2C05205600F2EF6F /* Assets.xcassets */,
 				B19228012C05205600F2EF6F /* Preview Content */,
 			);
@@ -125,6 +160,43 @@
 				B19228182C05205600F2EF6F /* LisoExpenseTrackUITestsLaunchTests.swift */,
 			);
 			path = LisoExpenseTrackUITests;
+			sourceTree = "<group>";
+		};
+		B19228252C05206B00F2EF6F /* Ui Common */ = {
+			isa = PBXGroup;
+			children = (
+				B192282C2C0521DC00F2EF6F /* UIExtensions.swift */,
+				B192282E2C05257F00F2EF6F /* PrimaryButton.swift */,
+				B19228302C05291A00F2EF6F /* SecondaryButton.swift */,
+				B190B2912C07F75A00373066 /* CustomTextField.swift */,
+			);
+			path = "Ui Common";
+			sourceTree = "<group>";
+		};
+		B19228272C05208600F2EF6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B19228292C05209800F2EF6F /* Home */,
+				B19228282C05209100F2EF6F /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B19228282C05209100F2EF6F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B192282A2C0520C800F2EF6F /* WelcomeView.swift */,
+				B190B2832C07B02400373066 /* SignUpView.swift */,
+				B190B2932C0801C600373066 /* SignUpSucessView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B19228292C05209800F2EF6F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +303,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B190B28F2C07B24B00373066 /* Inter-SemiBold.ttf in Resources */,
 				B19228032C05205600F2EF6F /* Preview Assets.xcassets in Resources */,
+				B190B28E2C07B24B00373066 /* Inter-Bold.ttf in Resources */,
 				B19228002C05205600F2EF6F /* Assets.xcassets in Resources */,
+				B190B28D2C07B24B00373066 /* Inter-Regular.ttf in Resources */,
+				B190B28C2C07B24B00373066 /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B19227FE2C05205500F2EF6F /* ContentView.swift in Sources */,
+				B19228312C05291A00F2EF6F /* SecondaryButton.swift in Sources */,
+				B192282B2C0520C800F2EF6F /* WelcomeView.swift in Sources */,
+				B190B2842C07B02400373066 /* SignUpView.swift in Sources */,
+				B192282F2C05257F00F2EF6F /* PrimaryButton.swift in Sources */,
 				B19227FC2C05205500F2EF6F /* LisoExpenseTrackApp.swift in Sources */,
+				B192282D2C0521DC00F2EF6F /* UIExtensions.swift in Sources */,
+				B190B2922C07F75A00373066 /* CustomTextField.swift in Sources */,
+				B190B2942C0801C600373066 /* SignUpSucessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +507,8 @@
 				DEVELOPMENT_TEAM = X348F84F5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LisoExpenseTrack/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +538,8 @@
 				DEVELOPMENT_TEAM = X348F84F5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LisoExpenseTrack/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
