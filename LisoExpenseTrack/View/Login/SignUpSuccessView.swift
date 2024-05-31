@@ -1,13 +1,13 @@
 //
-//  SignUpSucessView.swift
+//  SignUpSuccessView.swift
 //  LisoExpenseTrack
 //
-//  Created by Luciano Silva on 29/05/24.
+//  Created by Luciano Silva on 30/05/24.
 //
 
 import SwiftUI
 
-struct SignUpSucessView: View {
+struct SignUpSuccessView: View {
     var body: some View {
         ZStack {
             VStack {
@@ -17,7 +17,7 @@ struct SignUpSucessView: View {
                     .frame(width: .widthPer(per: 0.5))
                     .padding(.top, .topInsets + 180)
                 
-                Text("Verifique o seu email")
+                Text("Conta criada")
                     .multilineTextAlignment(.leading)
                     .font(.customfont(.bold, fontSize: 30))
                     .padding(.horizontal, 8)
@@ -34,14 +34,19 @@ struct SignUpSucessView: View {
                 
                 Spacer()
                 
-                PrimaryButton(title: "Realizar Login", width: 350, height: 48)
-                    .padding(.bottom, 16)
+                PrimaryButton(title: "Realizar Login", width: 350, height: 52)
+                    .padding(.bottom, 48)
                 
             }
         }
+        .navigationTitle("")
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
+        .ignoresSafeArea()
     }
 }
 
 #Preview {
-    SignUpSucessView()
+    SignUpSuccessView()
 }
+

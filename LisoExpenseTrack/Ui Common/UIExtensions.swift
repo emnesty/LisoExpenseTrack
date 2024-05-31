@@ -87,6 +87,10 @@ extension Color {
         return Color(hex: "344054")
     }
     
+    static var textQuarterary500: Color {
+        return Color(hex: "667085")
+    }
+    
     static var ButtonPrimaryBG: Color {
         return Color(hex: "7F56D9")
     }
@@ -110,6 +114,10 @@ extension Color {
     
     static var SecondaryBorder: Color {
         return Color(hex: "D0D5DD")
+    }
+    
+    static var BgBrandSolid: Color {
+        return Color(hex: "7F56D9")
     }
     
     

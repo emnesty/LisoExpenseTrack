@@ -11,8 +11,9 @@ import SwiftUI
 struct LisoExpenseTrackApp: App {
     var body: some Scene {
         WindowGroup {
-            
-            WelcomeView()
+            NavigationView {
+                WelcomeView()
+            }
         }
     }
 }
